@@ -1,0 +1,69 @@
+Allon Finezilber
+Michael Ferrera
+
+
+Testcases
+---------
+
+Inputted Indexed File:
+----------------------
+
+<list> bark
+test/swag.txt~ 1 test/meow.txt~ 1 test/meow.txt 1 test/swag.txt 1 
+</list> 
+<list> black
+test/swag.txt~ 1 test/swag.txt 1 
+</list> 
+<list> can
+test/rawr.txt~ 1 test/meow.txt~ 1 test/meow.txt 1 test/rawr.txt 1 
+</list> 
+<list> cats
+test/meow.txt~ 1 test/meow.txt 1 
+</list> 
+<list> cow
+test/swag.txt~ 1 test/swag.txt 1 
+</list> 
+<list> fart
+test/swag.txt~ 1 test/swag.txt 1 
+</list> 
+<list> heard
+test/rawr.txt~ 1 test/meow.txt~ 1 test/meow.txt 1 test/rawr.txt 1 
+</list> 
+<list> how
+test/swag.txt~ 1 test/swag.txt 1 
+</list> 
+<list> i
+test/rawr.txt~ 1 test/meow.txt~ 1 test/meow.txt 1 test/rawr.txt 1 
+</list> 
+<list> jack
+test/swag.txt~ 1 test/swag.txt 1 
+</list> 
+<list> lions
+test/rawr.txt~ 1 test/rawr.txt 1 
+</list> 
+<list> meow
+test/swag.txt~ 1 test/rawr.txt~ 1 test/rawr.txt 1 test/swag.txt 1 
+</list> 
+<list> sometimes
+test/rawr.txt~ 1 test/meow.txt~ 1 test/meow.txt 1 test/rawr.txt 1 
+</list> 
+<list> that
+test/rawr.txt~ 1 test/meow.txt~ 1 test/meow.txt 1 test/rawr.txt 1 
+</list> 
+
+
+
+Output
+-------
+
+SA:
+
+Please insert type of search followed by the tokens you want to search or hit q to quit: sa cow how jack
+test/swag.txt~	test/swag.txt	
+
+
+SO:
+
+Please insert type of search followed by the tokens you want to search or hit q to quit: so sometimes lions cats
+test/rawr.txt~	test/meow.txt~	test/meow.txt	test/rawr.txt
+
